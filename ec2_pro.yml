@@ -1,0 +1,4 @@
+- hosts: "localhost"
+  roles:
+          - name: "Provisioning ec2 Instances"
+            role: "/etc/ansible/roles/ec2_pro"
